@@ -1,0 +1,52 @@
+@import "bootstrap";
+@import "bootstrap/theme";
+
+$light_blue: #ccc;
+
+div{
+
+}
+
+
+// #blah{
+//   color: black;
+//   font-weight: normal;
+// }
+
+
+.user_name{
+  color: blue;
+  font-weight: bold;
+}
+
+.highlight{
+  background-color: yellow;
+}
+
+.user_name{
+  color: red;
+}
+
+
+@media (max-width: 600px) {
+  .user_name{
+    color: purple;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
